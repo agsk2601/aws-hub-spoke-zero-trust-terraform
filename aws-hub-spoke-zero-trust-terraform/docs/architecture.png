@@ -1,0 +1,13 @@
+Internet
+   |
+[Internet Gateway]
+   |
+[Hub VPC]
+   |--- Public Subnet --> Bastion Host
+   |--- Private Subnet
+   |
+   |------ VPC Peering ------ [Spoke1 VPC]
+   |                             |--- Private App Server
+   |
+   |------ VPC Peering ------ [Spoke2 VPC]
+                                 |--- Private App Server
